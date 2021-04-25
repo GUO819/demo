@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".CoordinatorLayoutActivity"></activity>
+        <activity android:name=".AActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
