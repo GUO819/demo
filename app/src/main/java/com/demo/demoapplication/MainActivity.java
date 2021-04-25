@@ -32,5 +32,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Log.i(TAG, "onActivityResult: 返回值");
+        Log.i(TAG, "onActivityResult: 返回值");
+        Log.i(TAG, "onActivityResult: 返回值");
+        Log.i(TAG, "onActivityResult: 返回值");
     }
 }
