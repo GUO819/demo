@@ -33,5 +33,8 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         Log.i(TAG, "onActivityResult: 返回值");
         Log.i(TAG, "onActivityResult: 返回q为值");
+        Log.i(TAG, "onActivityResult: 返回值");
+        Log.i(TAG, "onActivityResult: 返回值");
+        Log.i(TAG, "onActivityResult: 返回值");
     }
 }
